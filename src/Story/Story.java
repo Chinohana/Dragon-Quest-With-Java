@@ -1,3 +1,5 @@
+//This is a story database where all stories are gathered for easy access.
+
 package Story;
 public class Story {
     public static void Story00() {
@@ -12,7 +14,7 @@ public class Story {
         System.out.print("系统：请你告诉我你是什么名字，勇士\n");
     }
 
-    public static void Story02(String name) {
+    public static void Story02(String name) {  //Players need to input a name.
         System.out.print("英雄"+name+"\n");
         System.out.print("骑上最快的马\n带着大家的希望\n从城堡里出发\n战胜怪兽来袭\n获得12金币\n无数伤痕见证\n你慢慢升级\n");
         System.out.print("按enter继续");
@@ -58,5 +60,6 @@ public class Story {
     public static void Ending() {
         System.out.print("游戏到这里就结束了，你可以按enter键退出，如果你意犹未尽，你可以重新打开程序，重新开始游戏。\n");
     }
+
 }
 
