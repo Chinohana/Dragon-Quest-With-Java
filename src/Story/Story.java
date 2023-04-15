@@ -25,14 +25,14 @@ public class Story {
         System.out.print("按enter继续");
     }
 
-    public static void Story04() {
+    public static void Story04(String name) {
         System.out.print("就这样来到了现在\n你站在恶龙面前\n准备给他致命一击\n但此时，你犹豫住了\n该用什么样的力道去给恶龙最后一击呢？\n如果力道过大，会毁了整个龙穴，而你会被压死\n如果力道过小，会被恶龙轻易反杀\n你必须把力道掌握的很好\n于是你开始了屠龙路程的最后选择。\n");
-        System.out.print("系统:接下来你该选择力度了\n但其实这个力度就是靠运气\n可不要忘了，这是一个猜数字的游戏\n我会随机给你一个1~100之间的数字\n你一共有无限次机会去猜这个数\n开始你的选择吧！");
+        System.out.print("系统:接下来你该选择力度了\n但其实这个力度就是靠运气\n可不要忘了，这是一个猜数字的游戏\n我会随机给你一个1~100之间的数字\n你一共有无限次机会去猜这个数\n开始你的选择吧！"+name+"！");
     }
 
     public static void StoryEnd00Part1() {
-        System.out.print("你在思考了一番后放下了你的宝具:Excalibur \n并上去拥抱了恶龙\n恶龙流下了泪\n告诉你事情的真相\n原来，来到这里屠龙的勇士们\n其实都打败了恶龙\n但是他们被恶龙的钱财吸引\n坐上恶龙的椅子\n变成了新的恶龙。\n说完这番话，恶龙就消失了");
-        System.out.print("按enter继续");
+        System.out.print("你在思考了一番后放下了你的宝具:Excalibur \n并上去拥抱了恶龙\n恶龙流下了泪\n告诉你事情的真相\n原来，来到这里屠龙的勇士们\n其实都打败了恶龙\n但是他们被恶龙的钱财吸引\n坐上恶龙的椅子\n变成了新的恶龙。\n说完这番话，恶龙就消失了\n");
+        System.out.print("按enter继续\n");
     }
 
     public static void StoryEnd00Part2() {
